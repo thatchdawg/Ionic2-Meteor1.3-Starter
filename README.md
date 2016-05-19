@@ -24,3 +24,18 @@ The scripts in package.json help build the application by using "node-sass" to i
 The build script will output platform specific css bundles into the public/stylesheets/ directory that we created.
 The client/index.html includes links to these stylesheets.
 The method setStyle() in client/app.ts file will set only one of the stylesheets to be active based on the platform style class that Ionic adds to the body tag.
+
+
+# Windows Users
+
+### Required components:
+	Microsoft Visual Studio 2015
+	Microsoft .NET Framework 4
+	Windows C++ Redistributible(*)
+
+##### (*) Can be installed easily through Visual Studio 2015:
+
+1. Open Visual Studio
+2. Go to File-->New-->Project
+3. Navigate to Templates-->Other Languages-->Visual C++In the navigation on the left of the window.
+4. Double click on "Install Visual C++ components (may be worded differently)"
